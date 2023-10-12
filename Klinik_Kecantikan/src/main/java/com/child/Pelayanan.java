@@ -6,9 +6,9 @@ package com.child;
 
 import com.parent.KlinikKecantikan;
 
-public class Klinik extends KlinikKecantikan {
+public class Pelayanan extends KlinikKecantikan {
 
-    public Klinik(String nama, String dokter, String ruangan, String harga) {
+    public Pelayanan(String nama, String dokter, String ruangan, String harga) {
         super(nama, dokter, ruangan, harga);
     }
 
